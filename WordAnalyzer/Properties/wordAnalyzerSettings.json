@@ -1,0 +1,6 @@
+﻿{
+	"DapperSettings": {
+		"ConnectionString": "Host=127.0.0.1;Port=5433;Database=word_analyzer;Username=postgres;Password=aripostgres;SearchPath=public;Pooling=true;",
+		"Provider": "PostgreSQL"
+	}
+}

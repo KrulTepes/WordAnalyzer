@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WordAnalyzer": {
+      "commandName": "Project",
+      "commandLineArgs": "-p C:\\Users\\cherv\\source\\repos\\WordAnalyzer\\WordAnalyzer\\bin\\Debug\\net5.0\\Data"
+    }
+  }
+}

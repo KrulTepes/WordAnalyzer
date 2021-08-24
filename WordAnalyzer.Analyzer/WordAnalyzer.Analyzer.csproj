@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <Nullable>enable</Nullable>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.10" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AngleSharp\AngleSharp.Core.csproj" />
+    <ProjectReference Include="..\WordAnalyzer.Common\WordAnalyzer.Common.csproj" />
+    <ProjectReference Include="..\WordAnalyzer.Repository\WordAnalyzer.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
