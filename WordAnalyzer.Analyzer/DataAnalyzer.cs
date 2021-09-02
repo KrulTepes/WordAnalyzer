@@ -56,7 +56,7 @@ namespace WordAnalyzer.Analyzer
             }
             catch (Exception e)
             {
-                _logger.LogError(e, "Parse input data failed.");
+                _logger.LogError(e, $"Parse input data failed.\nMessage:{e.Message}\nStackTrace: {e.StackTrace}");
                 return null;
             }
         }

@@ -22,7 +22,7 @@ namespace WordAnalyzer.Analyzer.Parsers
             {
                 foreach (var symbol in text)
                 {
-                    if (char.IsLetter(symbol))
+                    if (char.IsLetterOrDigit(symbol))
                     {
                         word += symbol;
                     }
